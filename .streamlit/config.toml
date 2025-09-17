@@ -1,0 +1,10 @@
+[theme]
+primaryColor = "#264653"        # A deep, professional blue (dark blue from logo)
+backgroundColor = "#FFFFFF"      # Pure white for the main content area
+secondaryBackgroundColor = "#F0F2F6" # A very light gray for sidebars and containers
+textColor = "#1C1C1C"           # A dark gray for text for good readability
+font = "sans serif"             # A clean, modern font
+
+# Optional: Add custom fonts if needed
+# You would need to host these fonts and provide their URLs
+# fontLink = "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
