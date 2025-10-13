@@ -126,7 +126,7 @@ def chatbot_interface():
     # Function to Get Response
     # -------------------------------
     def get_gemini_response(user_question, image=None):
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-2.5-flash")
         final_prompt = SYSTEM_PROMPT.format(question=user_question if user_question else "No text provided")
 
         if image:
